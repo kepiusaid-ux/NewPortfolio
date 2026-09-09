@@ -29,6 +29,7 @@
     left: 0;
     width: var(--sidebar-w);
     height: 100vh;
+    text-decoration: none;
     background: linear-gradient(190deg, var(--navy) 0%, var(--baby-blue) 100%);
     display: flex;
     flex-direction: column;
@@ -49,6 +50,7 @@
   .nav-links {
     list-style: none;
     display: flex;
+    text-decoration: none;
     flex-direction: column;
     gap: clamp(1rem, 2vw, 1.5rem);
   }
@@ -63,6 +65,7 @@
     width: fit-content;
     cursor: pointer;
     transition: color 0.2s ease;
+    text-decoration: none;
   }
 
   .nav-links button::after {
@@ -74,16 +77,18 @@
     width: 0%;
     background: #FFFFFF;
     transition: width 0.25s ease;
+    text-decoration: none;
   }
 
   .nav-links button:hover,
   .nav-links button:focus-visible {
-    color: #FFFFFF;
+    color: #ffee31;
   }
 
   .nav-links button:hover::after,
   .nav-links button:focus-visible::after {
-    width: 100%;
+    color: #1b1d23;
+    text-decoration: none;
   }
 
   .nav-links button:focus-visible {
@@ -110,7 +115,7 @@
 
   .social-links a:hover,
   .social-links a:focus-visible {
-    color: #FFFFFF;
+    color: #f03d3d;
   }
 
   .social-links a:focus-visible {
