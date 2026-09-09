@@ -108,7 +108,7 @@
   }
 
   .social-links a {
-    color: rgba(255,255,255,0.75);
+    color: rgba(4, 62, 155, 0.6);
     display: inline-flex;
     transition: color 0.2s ease;
   }
@@ -125,7 +125,7 @@
 
   .navbar-copyright {
     font-size: 0.78rem;
-    color: rgba(255,255,255,0.6);
+    color: rgba(4, 62, 155, 0.6);
   }
 
   /* ---------- Main content ---------- */
