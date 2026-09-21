@@ -199,6 +199,24 @@ section {
   border-radius: 4px;
   background: rgba(255,255,255,0.55);
 }
+.development-anim{
+  --da-ink:#1b2136;--da-muted:#5b6482;--da-panel:#ffffff;--da-line:#d3d8e6;
+  --da-shadow:0 1px 2px rgba(20,30,60,.06),0 14px 36px rgba(20,30,60,.12);
+  box-sizing:border-box;max-width:1080px;margin:0 auto;
+  flex: 1;
+  padding:26px 18px 40px;
+  color:var(--da-ink);font:15px/1.45 'Bricolage Grotesque',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+.development-anim[data-theme="dark"]{
+  --da-ink:#e8ebf7;--da-muted:#98a1c2;--da-panel:#161a30;--da-line:#272d4d;
+  --da-shadow:0 1px 2px rgba(0,0,0,.3),0 16px 40px rgba(0,0,0,.45);
+}
+.development-anim *,.development-anim *::before,.development-anim *::after{box-sizing:inherit}
+.development-anim .da-title{font-size:clamp(26px,4.4vw,42px);line-height:1.05;letter-spacing:-.025em;margin:0 0 6px;font-weight:700}
+.development-anim .da-sub{margin:0 0 18px;color:var(--da-muted);max-width:60ch}
+.development-anim .da-stage{border-radius:9px;overflow:hidden;box-shadow:var(--da-shadow);background:#0b1236}
+.development-anim .da-scene{display:block;width:100%;height:auto;aspect-ratio:16/9}
+
 
 /* ---------- Shared section card look ---------- */
 .card-block {
