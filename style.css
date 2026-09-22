@@ -17,7 +17,7 @@ html { scroll-behavior: smooth; }
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--ink);
-  background: var(--cloud-white);
+  background-image: -moz-linear-gradient(#9083fc,#b1adf8);
   display: flex;
   min-height: 100vh;
 }
@@ -142,20 +142,15 @@ section {
 }
 
 .section-inner {
-  max-width: 980px;
+  max-width: 1200px;
 }
 
 /* ---------- Home ---------- */
 #home {
   padding-top: clamp(4rem, 8vw, 6.5rem);
-}
-
-.home-grid {
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
   gap: clamp(2rem, 4vw, 3.5rem);
   align-items: center;
-  max-width: 980px;
+  max-width: 1200px;
 }
 
 #home h1 {
@@ -170,7 +165,6 @@ section {
   font-size: clamp(1rem, 1.2vw, 1.15rem);
   line-height: 1.7;
   color: var(--slate);
-  max-width: 46ch;
 }
 
 .home-visual {
